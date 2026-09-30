@@ -1,0 +1,857 @@
+{
+  "files": [
+    {
+      "path": "Canyon_Office_GraphRAG/README.md",
+      "bytes": 9582,
+      "sha256": "e44a519849dc6835a98a4f6a1e48672434d87b462638c793027a19883df5f841",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/chunks.jsonl",
+      "bytes": 58892,
+      "sha256": "dcf77e268feeac86a9997ef14f0ae009d334d50e5af602e53bb4c28898933970",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-001.md",
+      "bytes": 2433,
+      "sha256": "f595e9a44052dde14d94d2a83389e50053c25529cf3319a3f971ec2d606636ec",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-002.md",
+      "bytes": 2244,
+      "sha256": "96b5588fe18f0bfe4d94aeccd411c18f8439f872d0ca548cda969c8fa3b1816f",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-003.md",
+      "bytes": 1182,
+      "sha256": "be58a8d7c31dc4d1cc300ad098c07930de48505bacfc871013a327c04e6fc18b",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-004.md",
+      "bytes": 1358,
+      "sha256": "5a296d27400183247cc4bbe43663db7fc11e5fc3a9c508b7748acad5568ebd70",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-005.md",
+      "bytes": 1490,
+      "sha256": "cf7b6bcebc88553d5022ec7d72c2fb23d97460951c7b21d4ebcf286f5e353b0c",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-006.md",
+      "bytes": 1263,
+      "sha256": "3849baf7f642d9e6a598251647f61158a4302971e5b66da5665e1359bc929636",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-007.md",
+      "bytes": 2266,
+      "sha256": "3af40de6618dbeabe72516ad8fe5a0ac9103e41abe36792d5c1bd1e105b5dd4a",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-008.md",
+      "bytes": 1219,
+      "sha256": "a3efd706351943f2b628a83f4992c4713f5de1b77ac2e8c427e584809b20fd5a",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-009.md",
+      "bytes": 1303,
+      "sha256": "3bad824ee76cdddf17aaedc954eb76f43bc7da9aff75c55d940a703abede5431",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-010.md",
+      "bytes": 1446,
+      "sha256": "8aba4206857ada7653946db1b376b181f0d6ceea7e84f94eb310c8901f589b78",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-011.md",
+      "bytes": 1734,
+      "sha256": "98af5e4098cc2c3d1d3f08e559742d1461fa15b5b2ae9966ba5575990dac580b",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-012.md",
+      "bytes": 1241,
+      "sha256": "bc08c76b1322d3cb3107050be9051ae9044dba1c3ad1240005bfb702dbf17bca",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-013.md",
+      "bytes": 1416,
+      "sha256": "cc1a175a6ea40da785e5e5537b716871d591d6ae30081557c87525a950012a80",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-014.md",
+      "bytes": 1717,
+      "sha256": "6264c5f622584dc8ff5fcbb83fb5d5ed14f0415e4b60c800a8eeb1284f700045",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-015.md",
+      "bytes": 1689,
+      "sha256": "6d855d9665b8257c3a7b9ecf227e9f14efe724edbce1f387cff270af8b74f4b9",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-CUS-001.md",
+      "bytes": 2031,
+      "sha256": "191b5aec3dc18e252fd285268c47afd8fc2c1917f5c578c28de4548d47eed678",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-CUS-002.md",
+      "bytes": 2063,
+      "sha256": "06b4a2af23d3521dc7fa159b4b44c3ff53046b6bcb2fb3e7587356779285e2c8",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-CUS-003.md",
+      "bytes": 2035,
+      "sha256": "45d9c5f9d94dc54d606bab80b81b21b242b3ed153e43a50dc5e407794c6fb9e8",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-CUS-004.md",
+      "bytes": 2013,
+      "sha256": "8e067daee402a847b1cf4b0981701bdf524cddead5170919ff0a6ace03966fed",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-CUS-005.md",
+      "bytes": 2034,
+      "sha256": "c808c806c4105579c31b160ac9b88bf0d03ecac998b5a8403fece94ad378afba",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-CUS-006.md",
+      "bytes": 2055,
+      "sha256": "7de17542acf7c70d93b83871ac8caa3b6e6a2cf07cca97842793a53ec48a2009",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-PRD-101.md",
+      "bytes": 1757,
+      "sha256": "f9ddb4d971a9e65b2cf630552ece20798b9357b62fd934dd005b1b5db0922c9b",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-PRD-102.md",
+      "bytes": 1774,
+      "sha256": "427647780b2cae9ba6de1b52938885eaba44510177129b138b808378aeb3a21a",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-PRD-103.md",
+      "bytes": 1776,
+      "sha256": "8fc946b46ef898a88d1bbb554fa16a0a5046348b78a5df1dc4843052265ee4b1",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-PRD-201.md",
+      "bytes": 1777,
+      "sha256": "1a353479755470d17a90a234e049c63caf2bf88d6778d44cafb1e68b09b96339",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-PRD-202.md",
+      "bytes": 1765,
+      "sha256": "52c353e7b37d3f02799877a57f64960baf0aa871dc8fa5ba1ee911b515fca5ac",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-PRD-301.md",
+      "bytes": 1782,
+      "sha256": "5cc3c48a0a5ad5d30b568f82c85743295209191555d2f3d95ecdcbc38f974e53",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-PRD-302.md",
+      "bytes": 1801,
+      "sha256": "be0ab4efc4b0d3cf738860380e6ca64ca8c65dbd0a8e933f3583418643df2439",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/documents/DOC-PRD-303.md",
+      "bytes": 1770,
+      "sha256": "2c59443edc2991dc65684a0097c20db642b976e094dc012bad7184422a0e355e",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/evaluation.jsonl",
+      "bytes": 6521,
+      "sha256": "7ed8c88c82bc1fe028101ef5e91d4760671d3582fe1f6a0bb41c309d0deacebb",
+      "role": "held_out_evaluation"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/graph/entities.csv",
+      "bytes": 11102,
+      "sha256": "d9e03f743f02e763869b4d6b3055793f4c7b665c72438748ba104fbd721cddf1",
+      "role": "reference_fixture"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/graph/entities.json",
+      "bytes": 16529,
+      "sha256": "9b6d0544c7947fe4a4193a638e3afd630542328db066f1cc229c8f0b21bbf2a1",
+      "role": "reference_fixture"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/graph/relationships.csv",
+      "bytes": 10089,
+      "sha256": "f373b3c2fe957dc3501650eeb684fecfaba936a24416e198e33813f1acd90140",
+      "role": "reference_fixture"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/graph/relationships.json",
+      "bytes": 30410,
+      "sha256": "7605886cfd5eef215c549bb862e3c7a54f38b9998b2efb98989def4cba016fd1",
+      "role": "reference_fixture"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/graph/seed_graph.cypher",
+      "bytes": 53923,
+      "sha256": "dbeb95562d476d143c4640006d7b541eab3d7f91adcfac6049acaa580cccd4a4",
+      "role": "reference_fixture"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG/manifest.json",
+      "bytes": 5409,
+      "sha256": "4c7279eceeea25c246ed089dd5a97121023b9f1a6bcdfeef24d1a8ddba5c1d7a",
+      "role": "document"
+    },
+    {
+      "path": "Canyon_Office_GraphRAG_Documentation.md",
+      "bytes": 60219,
+      "sha256": "ec6fc27ebbdbc7d36dcef39ecd45bd35d24f2ddfcf92a7178703d78e53944aef",
+      "role": "document"
+    },
+    {
+      "path": "Finance Dashboard Dataset info.md",
+      "bytes": 532,
+      "sha256": "bcf9fe8979b6a2cd64bc3488f74eaddebf81f669af9a979be1431030eb82ac18",
+      "role": "document"
+    },
+    {
+      "path": "Finance Dashboard Dataset.xlsx",
+      "bytes": 18818,
+      "sha256": "d3a6454298ada2e9fd27449961d9df37bae08dbd39a34ee9062ac64988727ff8",
+      "role": "document"
+    },
+    {
+      "path": "Finance Database Implemetation.docx",
+      "bytes": 48055,
+      "sha256": "3ed7a67578df791613449560a4f1df117965c9ff2f6d6bd273f843f04c971b73",
+      "role": "document"
+    },
+    {
+      "path": "docker-compose-neo4j.yaml",
+      "bytes": 484,
+      "sha256": "246617c9ba9ffbaa44e63af2625610ede2af54464fadf14b4eddb434d13e1f40",
+      "role": "configuration_not_retrieved"
+    },
+    {
+      "path": "finance_backup.sql",
+      "bytes": 53134936,
+      "sha256": "faebe54c80ff4826f3463471bdca157b146d28c00032cfdcba1e286da9c8db5f",
+      "role": "structured_finance"
+    }
+  ],
+  "manifest_verified": 29,
+  "fixture_entities": 84,
+  "fixture_relationships": 229,
+  "supplied_chunks_verified": 29,
+  "csv_rows": {
+    "entities": 84,
+    "relationships": 229
+  },
+  "documents": [
+    {
+      "id": "DOC-001",
+      "title": "Company overview and operating model",
+      "path": "corpus/documents/DOC-001.md",
+      "sha256": "f595e9a44052dde14d94d2a83389e50053c25529cf3319a3f971ec2d606636ec",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "COS-001"
+      ],
+      "characters": 2429
+    },
+    {
+      "id": "DOC-002",
+      "title": "Sales organization and identity register",
+      "path": "corpus/documents/DOC-002.md",
+      "sha256": "96b5588fe18f0bfe4d94aeccd411c18f8439f872d0ca548cda969c8fa3b1816f",
+      "origin": "mixed",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "COS-001",
+        "REP-100001",
+        "REP-100002",
+        "REP-100003",
+        "REP-100004",
+        "REP-100005",
+        "REP-100006",
+        "TEAM-1",
+        "TEAM-2",
+        "TEAM-3",
+        "TER-01",
+        "TER-02",
+        "TER-03"
+      ],
+      "characters": 2242
+    },
+    {
+      "id": "DOC-003",
+      "title": "Discount policy: historical version",
+      "path": "corpus/documents/DOC-003.md",
+      "sha256": "be58a8d7c31dc4d1cc300ad098c07930de48505bacfc871013a327c04e6fc18b",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2022-12-31",
+      "status": "superseded",
+      "entity_ids": [
+        "POL-DISC-01"
+      ],
+      "characters": 1182
+    },
+    {
+      "id": "DOC-004",
+      "title": "Discount policy: revised version",
+      "path": "corpus/documents/DOC-004.md",
+      "sha256": "5a296d27400183247cc4bbe43663db7fc11e5fc3a9c508b7748acad5568ebd70",
+      "origin": "fictional",
+      "effective_from": "2023-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "POL-DISC-01",
+        "CAT-DESK"
+      ],
+      "characters": 1358
+    },
+    {
+      "id": "DOC-005",
+      "title": "Returns, delivery damage and warranty",
+      "path": "corpus/documents/DOC-005.md",
+      "sha256": "cf7b6bcebc88553d5022ec7d72c2fb23d97460951c7b21d4ebcf286f5e353b0c",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "POL-RETURN-01",
+        "CAT-DESK",
+        "CAT-HYGIENE"
+      ],
+      "characters": 1488
+    },
+    {
+      "id": "DOC-006",
+      "title": "Credit and order release",
+      "path": "corpus/documents/DOC-006.md",
+      "sha256": "3849baf7f642d9e6a598251647f61158a4302971e5b66da5665e1359bc929636",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "POL-CREDIT-01"
+      ],
+      "characters": 1261
+    },
+    {
+      "id": "DOC-007",
+      "title": "Sales metrics and database interpretation",
+      "path": "corpus/documents/DOC-007.md",
+      "sha256": "3af40de6618dbeabe72516ad8fe5a0ac9103e41abe36792d5c1bd1e105b5dd4a",
+      "origin": "mixed",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "POL-REVENUE-01",
+        "COS-001"
+      ],
+      "characters": 2258
+    },
+    {
+      "id": "DOC-008",
+      "title": "Aspen Grove 2023 paper agreement",
+      "path": "corpus/documents/DOC-008.md",
+      "sha256": "a3efd706351943f2b628a83f4992c4713f5de1b77ac2e8c427e584809b20fd5a",
+      "origin": "fictional",
+      "effective_from": "2023-01-01",
+      "effective_to": "2023-12-31",
+      "status": "expired",
+      "entity_ids": [
+        "CON-001",
+        "CUS-001",
+        "PRD-101",
+        "POL-DISC-01"
+      ],
+      "characters": 1219
+    },
+    {
+      "id": "DOC-009",
+      "title": "Supply bulletin: A4 delay in January 2018",
+      "path": "corpus/documents/DOC-009.md",
+      "sha256": "3bad824ee76cdddf17aaedc954eb76f43bc7da9aff75c55d940a703abede5431",
+      "origin": "fictional",
+      "effective_from": "2018-01-10",
+      "effective_to": "2018-01-26",
+      "status": "closed",
+      "entity_ids": [
+        "INC-001",
+        "PRD-101",
+        "PRD-102",
+        "SUP-01",
+        "TER-01",
+        "CUS-001"
+      ],
+      "characters": 1301
+    },
+    {
+      "id": "DOC-010",
+      "title": "Customer email: delayed school paper inquiry",
+      "path": "corpus/documents/DOC-010.md",
+      "sha256": "8aba4206857ada7653946db1b376b181f0d6ceea7e84f94eb310c8901f589b78",
+      "origin": "fictional",
+      "effective_from": "2018-01-15",
+      "effective_to": "2018-01-15",
+      "status": "historical",
+      "entity_ids": [
+        "OPP-001",
+        "CUS-001",
+        "REP-100001",
+        "PRD-101",
+        "INC-001",
+        "CON-001"
+      ],
+      "characters": 1441
+    },
+    {
+      "id": "DOC-011",
+      "title": "Sales coaching note: ELYSE BEAULIEU, January 2018",
+      "path": "corpus/documents/DOC-011.md",
+      "sha256": "98af5e4098cc2c3d1d3f08e559742d1461fa15b5b2ae9966ba5575990dac580b",
+      "origin": "mixed",
+      "effective_from": "2018-02-05",
+      "effective_to": "2018-02-05",
+      "status": "historical",
+      "entity_ids": [
+        "REP-100001",
+        "TEAM-1",
+        "CUS-001",
+        "OPP-001",
+        "INC-001"
+      ],
+      "characters": 1732
+    },
+    {
+      "id": "DOC-012",
+      "title": "Support case: clinic wipe suitability",
+      "path": "corpus/documents/DOC-012.md",
+      "sha256": "bc08c76b1322d3cb3107050be9051ae9044dba1c3ad1240005bfb702dbf17bca",
+      "origin": "fictional",
+      "effective_from": "2023-03-06",
+      "effective_to": "2023-03-08",
+      "status": "closed",
+      "entity_ids": [
+        "CASE-001",
+        "CUS-006",
+        "REP-100006",
+        "PRD-302"
+      ],
+      "characters": 1241
+    },
+    {
+      "id": "DOC-013",
+      "title": "Internal email: furniture discount request",
+      "path": "corpus/documents/DOC-013.md",
+      "sha256": "cc1a175a6ea40da785e5e5537b716871d591d6ae30081557c87525a950012a80",
+      "origin": "fictional",
+      "effective_from": "2023-04-12",
+      "effective_to": "2023-04-12",
+      "status": "historical",
+      "entity_ids": [
+        "OPP-002",
+        "CUS-005",
+        "REP-100005",
+        "PRD-201",
+        "POL-DISC-01",
+        "POL-CREDIT-01"
+      ],
+      "characters": 1412
+    },
+    {
+      "id": "DOC-014",
+      "title": "Supplier relationships and replenishment playbook",
+      "path": "corpus/documents/DOC-014.md",
+      "sha256": "6264c5f622584dc8ff5fcbb83fb5d5ed14f0415e4b60c800a8eeb1284f700045",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "SUP-01",
+        "SUP-02",
+        "SUP-03",
+        "INC-001",
+        "PRD-101",
+        "CUS-001",
+        "REP-100001"
+      ],
+      "characters": 1711
+    },
+    {
+      "id": "DOC-015",
+      "title": "Sales representative onboarding checklist",
+      "path": "corpus/documents/DOC-015.md",
+      "sha256": "6d855d9665b8257c3a7b9ecf227e9f14efe724edbce1f387cff270af8b74f4b9",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "COS-001",
+        "POL-DISC-01",
+        "POL-CREDIT-01",
+        "POL-RETURN-01",
+        "POL-REVENUE-01"
+      ],
+      "characters": 1689
+    },
+    {
+      "id": "DOC-CUS-001",
+      "title": "Account brief: Aspen Grove Learning Network",
+      "path": "corpus/documents/DOC-CUS-001.md",
+      "sha256": "191b5aec3dc18e252fd285268c47afd8fc2c1917f5c578c28de4548d47eed678",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "CUS-001",
+        "SEG-EDU",
+        "TER-01",
+        "REP-100001",
+        "CONTACT-CUS-001",
+        "PRD-101",
+        "PRD-301"
+      ],
+      "characters": 2031
+    },
+    {
+      "id": "DOC-CUS-002",
+      "title": "Account brief: Redstone Family Clinic Group",
+      "path": "corpus/documents/DOC-CUS-002.md",
+      "sha256": "06b4a2af23d3521dc7fa159b4b44c3ff53046b6bcb2fb3e7587356779285e2c8",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "CUS-002",
+        "SEG-CLINIC",
+        "TER-01",
+        "REP-100002",
+        "CONTACT-CUS-002",
+        "PRD-301",
+        "PRD-303"
+      ],
+      "characters": 2063
+    },
+    {
+      "id": "DOC-CUS-003",
+      "title": "Account brief: Juniper Accounting Collective",
+      "path": "corpus/documents/DOC-CUS-003.md",
+      "sha256": "45d9c5f9d94dc54d606bab80b81b21b242b3ed153e43a50dc5e407794c6fb9e8",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "CUS-003",
+        "SEG-OFFICE",
+        "TER-02",
+        "REP-100003",
+        "CONTACT-CUS-003",
+        "PRD-102",
+        "PRD-202"
+      ],
+      "characters": 2035
+    },
+    {
+      "id": "DOC-CUS-004",
+      "title": "Account brief: High Mesa Charter Alliance",
+      "path": "corpus/documents/DOC-CUS-004.md",
+      "sha256": "8e067daee402a847b1cf4b0981701bdf524cddead5170919ff0a6ace03966fed",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "CUS-004",
+        "SEG-EDU",
+        "TER-02",
+        "REP-100004",
+        "CONTACT-CUS-004",
+        "PRD-102",
+        "PRD-103"
+      ],
+      "characters": 2013
+    },
+    {
+      "id": "DOC-CUS-005",
+      "title": "Account brief: Pinecrest Design Partners",
+      "path": "corpus/documents/DOC-CUS-005.md",
+      "sha256": "c808c806c4105579c31b160ac9b88bf0d03ecac998b5a8403fece94ad378afba",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "CUS-005",
+        "SEG-OFFICE",
+        "TER-03",
+        "REP-100005",
+        "CONTACT-CUS-005",
+        "PRD-201",
+        "PRD-202"
+      ],
+      "characters": 2034
+    },
+    {
+      "id": "DOC-CUS-006",
+      "title": "Account brief: Silver Creek Wellness Offices",
+      "path": "corpus/documents/DOC-CUS-006.md",
+      "sha256": "7de17542acf7c70d93b83871ac8caa3b6e6a2cf07cca97842793a53ec48a2009",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "CUS-006",
+        "SEG-CLINIC",
+        "TER-03",
+        "REP-100006",
+        "CONTACT-CUS-006",
+        "PRD-301",
+        "PRD-302"
+      ],
+      "characters": 2055
+    },
+    {
+      "id": "DOC-PRD-101",
+      "title": "Product sheet: SummitCopy A4",
+      "path": "corpus/documents/DOC-PRD-101.md",
+      "sha256": "f9ddb4d971a9e65b2cf630552ece20798b9357b62fd934dd005b1b5db0922c9b",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "PRD-101",
+        "CAT-PAPER",
+        "SUP-01",
+        "COS-001"
+      ],
+      "characters": 1757
+    },
+    {
+      "id": "DOC-PRD-102",
+      "title": "Product sheet: SummitCopy Letter",
+      "path": "corpus/documents/DOC-PRD-102.md",
+      "sha256": "427647780b2cae9ba6de1b52938885eaba44510177129b138b808378aeb3a21a",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "PRD-102",
+        "CAT-PAPER",
+        "SUP-01",
+        "COS-001"
+      ],
+      "characters": 1774
+    },
+    {
+      "id": "DOC-PRD-103",
+      "title": "Product sheet: CanyonLabel L30",
+      "path": "corpus/documents/DOC-PRD-103.md",
+      "sha256": "8fc946b46ef898a88d1bbb554fa16a0a5046348b78a5df1dc4843052265ee4b1",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "PRD-103",
+        "CAT-PAPER",
+        "SUP-01",
+        "COS-001"
+      ],
+      "characters": 1776
+    },
+    {
+      "id": "DOC-PRD-201",
+      "title": "Product sheet: MesaLift Desk",
+      "path": "corpus/documents/DOC-PRD-201.md",
+      "sha256": "1a353479755470d17a90a234e049c63caf2bf88d6778d44cafb1e68b09b96339",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "PRD-201",
+        "CAT-DESK",
+        "SUP-02",
+        "COS-001"
+      ],
+      "characters": 1777
+    },
+    {
+      "id": "DOC-PRD-202",
+      "title": "Product sheet: MesaSeat Task Chair",
+      "path": "corpus/documents/DOC-PRD-202.md",
+      "sha256": "52c353e7b37d3f02799877a57f64960baf0aa871dc8fa5ba1ee911b515fca5ac",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "PRD-202",
+        "CAT-DESK",
+        "SUP-02",
+        "COS-001"
+      ],
+      "characters": 1765
+    },
+    {
+      "id": "DOC-PRD-301",
+      "title": "Product sheet: ClearTrail Hand Soap",
+      "path": "corpus/documents/DOC-PRD-301.md",
+      "sha256": "5cc3c48a0a5ad5d30b568f82c85743295209191555d2f3d95ecdcbc38f974e53",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "PRD-301",
+        "CAT-HYGIENE",
+        "SUP-03",
+        "COS-001"
+      ],
+      "characters": 1782
+    },
+    {
+      "id": "DOC-PRD-302",
+      "title": "Product sheet: ClearTrail Surface Wipes",
+      "path": "corpus/documents/DOC-PRD-302.md",
+      "sha256": "be0ab4efc4b0d3cf738860380e6ca64ca8c65dbd0a8e933f3583418643df2439",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "PRD-302",
+        "CAT-HYGIENE",
+        "SUP-03",
+        "COS-001"
+      ],
+      "characters": 1801
+    },
+    {
+      "id": "DOC-PRD-303",
+      "title": "Product sheet: ClearTrail Paper Towels",
+      "path": "corpus/documents/DOC-PRD-303.md",
+      "sha256": "2c59443edc2991dc65684a0097c20db642b976e094dc012bad7184422a0e355e",
+      "origin": "fictional",
+      "effective_from": "2018-01-01",
+      "effective_to": "2024-12-31",
+      "status": "current",
+      "entity_ids": [
+        "PRD-303",
+        "CAT-HYGIENE",
+        "SUP-03",
+        "COS-001"
+      ],
+      "characters": 1770
+    },
+    {
+      "id": "SOURCE-feb1b78ba530",
+      "title": "Canyon_Office_GraphRAG_Documentation.md",
+      "path": "Canyon_Office_GraphRAG_Documentation.md",
+      "sha256": "ec6fc27ebbdbc7d36dcef39ecd45bd35d24f2ddfcf92a7178703d78e53944aef",
+      "origin": "source_documentation",
+      "effective_from": "",
+      "effective_to": "",
+      "status": "reference",
+      "entity_ids": [],
+      "characters": 7032
+    },
+    {
+      "id": "SOURCE-8d9020580c67",
+      "title": "Finance Dashboard Dataset info.md",
+      "path": "Finance Dashboard Dataset info.md",
+      "sha256": "bcf9fe8979b6a2cd64bc3488f74eaddebf81f669af9a979be1431030eb82ac18",
+      "origin": "source_documentation",
+      "effective_from": "",
+      "effective_to": "",
+      "status": "reference",
+      "entity_ids": [],
+      "characters": 518
+    },
+    {
+      "id": "SOURCE-5754596ab3c4",
+      "title": "Finance Dashboard Dataset.xlsx",
+      "path": "Finance Dashboard Dataset.xlsx",
+      "sha256": "d3a6454298ada2e9fd27449961d9df37bae08dbd39a34ee9062ac64988727ff8",
+      "origin": "workbook_sample",
+      "effective_from": "",
+      "effective_to": "",
+      "status": "reference",
+      "entity_ids": [],
+      "characters": 10017
+    },
+    {
+      "id": "SOURCE-7fe03f41ced4",
+      "title": "Finance Database Implemetation.docx",
+      "path": "Finance Database Implemetation.docx",
+      "sha256": "3ed7a67578df791613449560a4f1df117965c9ff2f6d6bd273f843f04c971b73",
+      "origin": "source_documentation",
+      "effective_from": "",
+      "effective_to": "",
+      "status": "reference",
+      "entity_ids": [],
+      "characters": 1508
+    }
+  ],
+  "notes": [
+    "SQL is parsed as data; never executed.",
+    "Graph JSON/CSV/Cypher are alternate representations, not separate evidence.",
+    "Evaluation answers are excluded from retrieval.",
+    "Original Compose password is excluded from the app and report.",
+    "Workbook is a separate sample, not a finance identity mapping."
+  ],
+  "finance_counts": {
+    "months": 12,
+    "years": 7,
+    "sales_teams": 6000,
+    "sales_reps": 24000,
+    "sales_reps_sales_data": 2016000
+  }
+}

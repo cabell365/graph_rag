@@ -1,0 +1,225 @@
+EXACT FINANCE TOOL OUTPUT:
+null
+
+EXPLICIT GRAPH FACTS (direction and source matter):
+PRD-303 (Product; ClearTrail Paper Towels) --SUPPLIED_BY--> SUP-03 (Supplier; ClearTrail Consumables) [source: DOC-PRD-303; scope: see source dates]
+PRD-302 (Product; ClearTrail Surface Wipes) --SUPPLIED_BY--> SUP-03 (Supplier; ClearTrail Consumables) [source: DOC-PRD-302; scope: see source dates]
+PRD-301 (Product; ClearTrail Hand Soap) --SUPPLIED_BY--> SUP-03 (Supplier; ClearTrail Consumables) [source: DOC-PRD-301; scope: see source dates]
+CUS-006 (Customer; Silver Creek Wellness Offices) --APPROVED_FOR--> PRD-301 (Product; ClearTrail Hand Soap) [source: DOC-CUS-006; scope: see source dates]
+CUS-002 (Customer; Redstone Family Clinic Group) --APPROVED_FOR--> PRD-301 (Product; ClearTrail Hand Soap) [source: DOC-CUS-002; scope: see source dates]
+CUS-001 (Customer; Aspen Grove Learning Network) --APPROVED_FOR--> PRD-301 (Product; ClearTrail Hand Soap) [source: DOC-CUS-001; scope: see source dates]
+COS-001 (Company; Canyon Office Supply Cooperative) --SELLS--> PRD-301 (Product; ClearTrail Hand Soap) [source: DOC-PRD-301; scope: see source dates]
+PRD-301 (Product; ClearTrail Hand Soap) --IN_CATEGORY--> CAT-HYGIENE (Category; Facility consumables) [source: DOC-PRD-301; scope: see source dates]
+CUS-002 (Customer; Redstone Family Clinic Group) --APPROVED_FOR--> PRD-303 (Product; ClearTrail Paper Towels) [source: DOC-CUS-002; scope: see source dates]
+COS-001 (Company; Canyon Office Supply Cooperative) --SELLS--> PRD-303 (Product; ClearTrail Paper Towels) [source: DOC-PRD-303; scope: see source dates]
+PRD-303 (Product; ClearTrail Paper Towels) --IN_CATEGORY--> CAT-HYGIENE (Category; Facility consumables) [source: DOC-PRD-303; scope: see source dates]
+CASE-001 (SupportCase; Reception wipes suitability) --CONCERNS--> PRD-302 (Product; ClearTrail Surface Wipes) [source: DOC-012; scope: see source dates]
+CUS-006 (Customer; Silver Creek Wellness Offices) --APPROVED_FOR--> PRD-302 (Product; ClearTrail Surface Wipes) [source: DOC-CUS-006; scope: see source dates]
+COS-001 (Company; Canyon Office Supply Cooperative) --SELLS--> PRD-302 (Product; ClearTrail Surface Wipes) [source: DOC-PRD-302; scope: see source dates]
+PRD-302 (Product; ClearTrail Surface Wipes) --IN_CATEGORY--> CAT-HYGIENE (Category; Facility consumables) [source: DOC-PRD-302; scope: see source dates]
+CASE-001 (SupportCase; Reception wipes suitability) --FOR_CUSTOMER--> CUS-006 (Customer; Silver Creek Wellness Offices) [source: DOC-012; scope: see source dates]
+CONTACT-CUS-006 (Contact; Morgan Hale) --CONTACT_FOR--> CUS-006 (Customer; Silver Creek Wellness Offices) [source: DOC-CUS-006; scope: see source dates]
+REP-100006 (SalesRep; BARBIE PETRONE) --MANAGES--> CUS-006 (Customer; Silver Creek Wellness Offices) [source: DOC-CUS-006; scope: see source dates]
+CUS-006 (Customer; Silver Creek Wellness Offices) --LOCATED_IN--> TER-03 (Territory; Front Range territory) [source: DOC-CUS-006; scope: see source dates]
+CUS-006 (Customer; Silver Creek Wellness Offices) --IN_SEGMENT--> SEG-CLINIC (Segment; Outpatient clinics) [source: DOC-CUS-006; scope: see source dates]
+CONTACT-CUS-002 (Contact; Devon Vale) --CONTACT_FOR--> CUS-002 (Customer; Redstone Family Clinic Group) [source: DOC-CUS-002; scope: see source dates]
+REP-100002 (SalesRep; RACQUEL TOLMAN) --MANAGES--> CUS-002 (Customer; Redstone Family Clinic Group) [source: DOC-CUS-002; scope: see source dates]
+CUS-002 (Customer; Redstone Family Clinic Group) --LOCATED_IN--> TER-01 (Territory; Wasatch territory) [source: DOC-CUS-002; scope: see source dates]
+CUS-002 (Customer; Redstone Family Clinic Group) --IN_SEGMENT--> SEG-CLINIC (Segment; Outpatient clinics) [source: DOC-CUS-002; scope: see source dates]
+CUS-001 (Customer; Aspen Grove Learning Network) --APPROVED_FOR--> PRD-101 (Product; SummitCopy A4) [source: DOC-CUS-001; scope: see source dates]
+CONTACT-CUS-001 (Contact; Marin Cole) --CONTACT_FOR--> CUS-001 (Customer; Aspen Grove Learning Network) [source: DOC-CUS-001; scope: see source dates]
+REP-100001 (SalesRep; ELYSE BEAULIEU) --MANAGES--> CUS-001 (Customer; Aspen Grove Learning Network) [source: DOC-CUS-001; scope: see source dates]
+CUS-001 (Customer; Aspen Grove Learning Network) --LOCATED_IN--> TER-01 (Territory; Wasatch territory) [source: DOC-CUS-001; scope: see source dates]
+
+SOURCE PASSAGES:
+SOURCE [DOC-PRD-301] Product sheet: ClearTrail Hand Soap
+Validity: 2018-01-01 to 2024-12-31; origin: fictional
+# Product sheet: ClearTrail Hand Soap
+
+
+
+## Identity and ordering
+Product ID and SKU: PRD-301. Category: Facility consumables. Standard list price: USD 32 per case of six 1-liter refill bottles. Minimum order: 6 sales units. Prices are scenario list prices effective January 1, 2018 through December 31, 2024; an approved customer contract may override them. Freight and tax are separate. No volume discounts are implied by the minimum quantity.
+
+## Specification and fit
+Unscented liquid hand soap; standard pump dispensers. Recommended use: Clinic and office washrooms. Limitation: Hand soap is not a disinfectant or sanitizer.
+
+## Supplier and availability
+Supplier: SUP-03. Routine stocked lead time is 3 business days after order approval. An incident or account credit hold can extend it. Price does not guarantee stock. Reps must check the active incident bulletin before promising a date.
+
+## Selling guidance
+Confirm equipment dimensions or dispenser compatibility before quoting. Record SKU, sales unit, quantity, account ID, policy version and promised date on the quote. A sample order, opportunity, or quote is not booked revenue. Do not infer that this item contributed to any MySQL monthly sales total.
+
+SOURCE [DOC-001] Company overview and operating model
+Validity: 2018-01-01 to 2024-12-31; origin: fictional
+# Company overview and operating model
+
+
+
+## Company story
+Canyon Office Supply Cooperative (COS-001), abbreviated Canyon Office or COS, is a fictional US distributor of paper, workplace equipment and facility consumables. Its headquarters is in the fictional Canyon Center business park near Salt Lake City. The cooperative launched in 2016 to help small institutions consolidate routine purchasing with a named sales contact.
+
+## Sales organization
+For this lab, interpret the supplied 24,000 sales representatives as members of a national affiliate sales network rather than headquarters employees. The 6,000 teams are four-person affiliate pods. This is an invented interpretation of the dataset, not a field in MySQL. Teams retain their exact database IDs and cleaned labels; labels such as marriage, races and setup are legacy synthetic codes rather than customer-facing brand names.
+
+## Scope of this corpus
+The detailed pilot covers teams 1–3 and reps 100001–100006, six fictional accounts and eight products. The other database reps and teams have no invented account assignments here. Companywide policies are global but a detailed territory or customer assignment must not be extrapolated beyond this pilot.
+
+## Value proposition
+Canyon offers a consistent catalog, compatibility checks, written quotes, planned replenishment and clear escalation routes. Schools need predictable paper supply; clinics need appropriate washroom consumables; professional offices need paper and furniture. COS does not sell clinical disinfectants in this catalog.
+
+## Financial boundary
+
+SOURCE [DOC-001] Company overview and operating model
+Validity: 2018-01-01 to 2024-12-31; origin: fictional
+predictable paper supply; clinics need appropriate washroom consumables; professional offices need paper and furniture. COS does not sell clinical disinfectants in this catalog.
+
+## Financial boundary
+The supplied MySQL database records rep-month target and actual sales. Product, supplier, customer, contract, quote, incident and policy facts come from this synthetic corpus. There is no order ledger linking the two. Fictional narratives must not be used to explain the random historical performance as verified causes.
+
+SOURCE [DOC-PRD-303] Product sheet: ClearTrail Paper Towels
+Validity: 2018-01-01 to 2024-12-31; origin: fictional
+# Product sheet: ClearTrail Paper Towels
+
+
+
+## Identity and ordering
+Product ID and SKU: PRD-303. Category: Facility consumables. Standard list price: USD 40 per case of twelve rolls. Minimum order: 8 sales units. Prices are scenario list prices effective January 1, 2018 through December 31, 2024; an approved customer contract may override them. Freight and tax are separate. No volume discounts are implied by the minimum quantity.
+
+## Specification and fit
+Universal household-size rolls. Recommended use: Staff kitchens and small washrooms. Limitation: Not compatible with proprietary folded-towel dispensers.
+
+## Supplier and availability
+Supplier: SUP-03. Routine stocked lead time is 3 business days after order approval. An incident or account credit hold can extend it. Price does not guarantee stock. Reps must check the active incident bulletin before promising a date.
+
+## Selling guidance
+Confirm equipment dimensions or dispenser compatibility before quoting. Record SKU, sales unit, quantity, account ID, policy version and promised date on the quote. A sample order, opportunity, or quote is not booked revenue. Do not infer that this item contributed to any MySQL monthly sales total.
+
+SOURCE [SOURCE-feb1b78ba530] Canyon_Office_GraphRAG_Documentation.md
+Validity: undated to unspecified; origin: source_documentation
+eparate sample and is not used to create the fictional identities. The planning Markdown describes a smaller intended dataset; it does not override the actual backup.
+
+## Fictional layer and coverage
+
+Canyon Office Supply Cooperative is an invented B2B distributor. Its 24,000-rep affiliate interpretation, territories, customers, contacts, products, suppliers, policies, contract, opportunities and incidents are scenario facts. Only teams 1–3 and reps 100001–100006 have detailed pilot assignments. Other members of those teams and the remaining network have no invented account details. Dollar amounts in quote examples are synthetic arithmetic, not additional actual sales.
+
+Do not invent customer/product allocations from rep totals. The schema lacks customers, products, order lines, invoices, shipments and credits. Do not treat supplier events as proven causes of historical performance. Do not assume the dump-current team mapping is a time-valid historical assignment.
+
+## Suggested graph model
+
+| Source | Node or relationship | Identity or interpretation |
+|---|---|---|
+|sales_reps|SalesRep|REP-{sales_rep_id}|
+|sales_teams|SalesTeam|TEAM-{sales_team_id}|
+|sales_reps.sales_team_id|SalesRep → MEMBER_OF → SalesTeam|Dump-current membership only|
+|years + months|Period|PERIOD-{year_value}-{month_id padded to 2 digits}|
+|sales_reps_sales_data|MonthlySales|METRIC-{rep_id}-{year_value}-{month number}; validate natural-key uniqueness first|
+|document account ownership|SalesRep → MANAGES → Customer|Fictional assignment|
+|account approved list|Customer → APPROVED_FOR → Product|Eligibility, not a purchase|
+|catalog|Product → SUPPLIED_BY → Supplier|Fictional sourcing|
+|contract|Customer → HAS_CONTRACT → Contract → COVERS → Product|Date-specific terms in source document|
+|supply bulletin|Incident → AFFECTS → Product|Dated event, not sales attribution|
+|all documents|Document → MENTIONS → Entity|Source navigation, not proof of every claim about an entity|
+
+SOURCE [SOURCE-feb1b78ba530] Canyon_Office_GraphRAG_Documentation.md
+Validity: undated to unspecified; origin: source_documentation
+# Canyon Office Supply: fictional GraphRAG corpus
+
+This package supplies a coherent fictional sales business around your existing MySQL finance database. All new commercial entities are invented. The original attachments remain unchanged. Start with `documents/DOC-001.md` and `DOC-007.md`.
+
+## Included material
+
+- 29 individually ingestible Markdown documents: company overview, identity register, eight product sheets, six account briefs, historical and revised policies, contract, supplier bulletin, customer/internal emails, coaching note, support case, supplier playbook and onboarding checklist.
+- `chunks.jsonl`: one bounded chunk per short document, with stable identifiers, entity references, dates and provenance.
+- `graph/entities.json` and `relationships.json`, plus CSV equivalents: deterministic reference graph for checking an LLM extraction against known facts.
+- `graph/seed_graph.cypher`: optional Neo4j pilot fixture, with typed labels, relationships and a global entity-ID uniqueness constraint. It contains no deletion statements.
+- `evaluation.jsonl`: questions with expected answers and source document IDs, including multi-hop, temporal, quantitative and insufficient-evidence cases.
+- `manifest.json`: document identifiers, file paths, origins and SHA-256 hashes.
+
+## What is grounded in your attachments
+
+The SQL dump contains months, years, sales_teams, sales_reps and sales_reps_sales_data. Parsed INSERT values yield 24,000 reps, 6,000 teams, four reps per team, and 2,016,000 unique rep/month/year facts spanning 2018–2024. This count is based on the backup's INSERT statements, not a live MySQL query. The source table has no primary key despite the implementation document's composite-PK description. It uses years.year_value, not year_desc. Team/month labels contain trailing carriage returns.
+
+The six named reps, their first three team IDs, and team labels are copied from the dump. Two genuine monthly rows for REP-100001 are included in the graph fixture; this is not a full financial export. The workbook has 25 people and 14 months, different names/teams and fractional actual dollar amounts. It is a separate sample and is not used to create the fictional identities. The planning Markdown describes a smaller intended dataset; it does not override the actual backup.
+
+## Fictional layer and coverage
+
+SOURCE [DOC-PRD-302] Product sheet: ClearTrail Surface Wipes
+Validity: 2018-01-01 to 2024-12-31; origin: fictional
+# Product sheet: ClearTrail Surface Wipes
+
+
+
+## Identity and ordering
+Product ID and SKU: PRD-302. Category: Facility consumables. Standard list price: USD 54 per case of twelve 80-count tubs. Minimum order: 4 sales units. Prices are scenario list prices effective January 1, 2018 through December 31, 2024; an approved customer contract may override them. Freight and tax are separate. No volume discounts are implied by the minimum quantity.
+
+## Specification and fit
+General-purpose surface cleaning wipes. Recommended use: Nonclinical common-area cleaning. Limitation: No disinfectant claim; do not recommend for clinical infection control.
+
+## Supplier and availability
+Supplier: SUP-03. Routine stocked lead time is 3 business days after order approval. An incident or account credit hold can extend it. Price does not guarantee stock. Reps must check the active incident bulletin before promising a date.
+
+## Selling guidance
+Confirm equipment dimensions or dispenser compatibility before quoting. Record SKU, sales unit, quantity, account ID, policy version and promised date on the quote. A sample order, opportunity, or quote is not booked revenue. Do not infer that this item contributed to any MySQL monthly sales total.
+
+SOURCE [DOC-012] Support case: clinic wipe suitability
+Validity: 2023-03-06 to 2023-03-08; origin: fictional
+# Support case: clinic wipe suitability
+
+
+
+Case CASE-001 opened March 6, 2023 and closed March 8, 2023. Morgan Hale at Silver Creek Wellness Offices asked whether ClearTrail Surface Wipes could replace clinical disinfectant wipes. BARBIE PETRONE (REP-100006) confirmed that PRD-302 is a general surface cleaner with no disinfectant claim. The customer retained the product on its approved list for reception-area cleaning only and continued buying clinical disinfection products from an outside supplier. No alternative disinfectant SKU exists in this catalog. Outcome: use clarification, no product exchange, no recorded refund. The case does not prove that an order was placed.
+
+SOURCE [DOC-CUS-002] Account brief: Redstone Family Clinic Group
+Validity: 2018-01-01 to 2024-12-31; origin: fictional
+# Account brief: Redstone Family Clinic Group
+
+
+
+## Account identity
+Account CUS-002 is a fictional outpatient clinics customer in Wasatch territory. Named account owner: RACQUEL TOLMAN (REP-100002, MySQL sales_rep_id 100002). Procurement contact: Devon Vale (CONTACT-CUS-002). Contact is a fictional role holder; no email address is supplied.
+
+## Buying context
+Its washrooms use pump dispensers and universal rolls. Clinical disinfection supplies are sourced elsewhere. Approved purchasing list: PRD-301 ClearTrail Hand Soap, PRD-303 ClearTrail Paper Towels. Approval means product eligibility, not proof of purchase or a mandatory exclusive contract. Alternatives require procurement acceptance.
+
+## Commercial terms
+Payment terms: Net 30. Scenario credit limit: USD 12,000. These limits apply to unpaid invoiced balances, not opportunity values. Refer to POL-CREDIT-01 for holds. No outstanding balance is supplied unless an incident document states one. No standing discount exists unless a contract document explicitly grants it.
+
+## Account strategy
+Before replenishment, confirm stock on hand, receiving hours and product compatibility. Ask procurement to consolidate routine purchases to reduce shipments. Reps may propose a pilot for new product categories but must not convert interest into recorded revenue. No customer-level sales ledger exists in the supplied database, so the RAG must not assign monthly rep revenue to this account.
+
+SOURCE [DOC-CUS-006] Account brief: Silver Creek Wellness Offices
+Validity: 2018-01-01 to 2024-12-31; origin: fictional
+# Account brief: Silver Creek Wellness Offices
+
+
+
+## Account identity
+Account CUS-006 is a fictional outpatient clinics customer in Front Range territory. Named account owner: BARBIE PETRONE (REP-100006, MySQL sales_rep_id 100006). Procurement contact: Morgan Hale (CONTACT-CUS-006). Contact is a fictional role holder; no email address is supplied.
+
+## Buying context
+Wipes are requested only for nonclinical reception surfaces. No disinfectant use is approved. Approved purchasing list: PRD-301 ClearTrail Hand Soap, PRD-302 ClearTrail Surface Wipes. Approval means product eligibility, not proof of purchase or a mandatory exclusive contract. Alternatives require procurement acceptance.
+
+## Commercial terms
+Payment terms: Net 30. Scenario credit limit: USD 9,000. These limits apply to unpaid invoiced balances, not opportunity values. Refer to POL-CREDIT-01 for holds. No outstanding balance is supplied unless an incident document states one. No standing discount exists unless a contract document explicitly grants it.
+
+## Account strategy
+Before replenishment, confirm stock on hand, receiving hours and product compatibility. Ask procurement to consolidate routine purchases to reduce shipments. Reps may propose a pilot for new product categories but must not convert interest into recorded revenue. No customer-level sales ledger exists in the supplied database, so the RAG must not assign monthly rep revenue to this account.
+
+SOURCE [DOC-CUS-001] Account brief: Aspen Grove Learning Network
+Validity: 2018-01-01 to 2024-12-31; origin: fictional
+# Account brief: Aspen Grove Learning Network
+
+
+
+## Account identity
+Account CUS-001 is a fictional education customer in Wasatch territory. Named account owner: ELYSE BEAULIEU (REP-100001, MySQL sales_rep_id 100001). Procurement contact: Marin Cole (CONTACT-CUS-001). Contact is a fictional role holder; no email address is supplied.
+
+## Buying context
+A4 printers are installed in its administration offices; facilities uses standard pump dispensers. Approved purchasing list: PRD-101 SummitCopy A4, PRD-301 ClearTrail Hand Soap. Approval means product eligibility, not proof of purchase or a mandatory exclusive contract. Alternatives require procurement acceptance.
+
+## Commercial terms
+Payment terms: Net 30. Scenario credit limit: USD 20,000. These limits apply to unpaid invoiced balances, not opportunity values. Refer to POL-CREDIT-01 for holds. No outstanding balance is supplied unless an incident document states one. No standing discount exists unless a contract document explicitly grants it.
+
+## Account strategy
+Before replenishment, confirm stock on hand, receiving hours and product compatibility. Ask procurement to consolidate routine purchases to reduce shipments. Reps may propose a pilot for new product categories but must not convert interest into recorded revenue. No customer-level sales ledger exists in the supplied database, so the RAG must not assign monthly rep revenue to this account.
