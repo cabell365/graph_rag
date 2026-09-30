@@ -1,0 +1,1382 @@
+[
+  {
+    "source_id": "REP-100001",
+    "relationship": "MEMBER_OF",
+    "target_id": "TEAM-1",
+    "document_id": "DOC-002",
+    "scope": "current_dump_membership"
+  },
+  {
+    "source_id": "REP-100002",
+    "relationship": "MEMBER_OF",
+    "target_id": "TEAM-1",
+    "document_id": "DOC-002",
+    "scope": "current_dump_membership"
+  },
+  {
+    "source_id": "REP-100003",
+    "relationship": "MEMBER_OF",
+    "target_id": "TEAM-2",
+    "document_id": "DOC-002",
+    "scope": "current_dump_membership"
+  },
+  {
+    "source_id": "REP-100004",
+    "relationship": "MEMBER_OF",
+    "target_id": "TEAM-2",
+    "document_id": "DOC-002",
+    "scope": "current_dump_membership"
+  },
+  {
+    "source_id": "REP-100005",
+    "relationship": "MEMBER_OF",
+    "target_id": "TEAM-3",
+    "document_id": "DOC-002",
+    "scope": "current_dump_membership"
+  },
+  {
+    "source_id": "REP-100006",
+    "relationship": "MEMBER_OF",
+    "target_id": "TEAM-3",
+    "document_id": "DOC-002",
+    "scope": "current_dump_membership"
+  },
+  {
+    "source_id": "TEAM-1",
+    "relationship": "ASSIGNED_TO",
+    "target_id": "TER-01",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "TEAM-1",
+    "relationship": "PART_OF",
+    "target_id": "COS-001",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "TEAM-2",
+    "relationship": "ASSIGNED_TO",
+    "target_id": "TER-02",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "TEAM-2",
+    "relationship": "PART_OF",
+    "target_id": "COS-001",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "TEAM-3",
+    "relationship": "ASSIGNED_TO",
+    "target_id": "TER-03",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "TEAM-3",
+    "relationship": "PART_OF",
+    "target_id": "COS-001",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "PRD-101",
+    "relationship": "IN_CATEGORY",
+    "target_id": "CAT-PAPER",
+    "document_id": "DOC-PRD-101"
+  },
+  {
+    "source_id": "COS-001",
+    "relationship": "SELLS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-PRD-101"
+  },
+  {
+    "source_id": "PRD-101",
+    "relationship": "SUPPLIED_BY",
+    "target_id": "SUP-01",
+    "document_id": "DOC-PRD-101"
+  },
+  {
+    "source_id": "PRD-102",
+    "relationship": "IN_CATEGORY",
+    "target_id": "CAT-PAPER",
+    "document_id": "DOC-PRD-102"
+  },
+  {
+    "source_id": "COS-001",
+    "relationship": "SELLS",
+    "target_id": "PRD-102",
+    "document_id": "DOC-PRD-102"
+  },
+  {
+    "source_id": "PRD-102",
+    "relationship": "SUPPLIED_BY",
+    "target_id": "SUP-01",
+    "document_id": "DOC-PRD-102"
+  },
+  {
+    "source_id": "PRD-103",
+    "relationship": "IN_CATEGORY",
+    "target_id": "CAT-PAPER",
+    "document_id": "DOC-PRD-103"
+  },
+  {
+    "source_id": "COS-001",
+    "relationship": "SELLS",
+    "target_id": "PRD-103",
+    "document_id": "DOC-PRD-103"
+  },
+  {
+    "source_id": "PRD-103",
+    "relationship": "SUPPLIED_BY",
+    "target_id": "SUP-01",
+    "document_id": "DOC-PRD-103"
+  },
+  {
+    "source_id": "PRD-201",
+    "relationship": "IN_CATEGORY",
+    "target_id": "CAT-DESK",
+    "document_id": "DOC-PRD-201"
+  },
+  {
+    "source_id": "COS-001",
+    "relationship": "SELLS",
+    "target_id": "PRD-201",
+    "document_id": "DOC-PRD-201"
+  },
+  {
+    "source_id": "PRD-201",
+    "relationship": "SUPPLIED_BY",
+    "target_id": "SUP-02",
+    "document_id": "DOC-PRD-201"
+  },
+  {
+    "source_id": "PRD-202",
+    "relationship": "IN_CATEGORY",
+    "target_id": "CAT-DESK",
+    "document_id": "DOC-PRD-202"
+  },
+  {
+    "source_id": "COS-001",
+    "relationship": "SELLS",
+    "target_id": "PRD-202",
+    "document_id": "DOC-PRD-202"
+  },
+  {
+    "source_id": "PRD-202",
+    "relationship": "SUPPLIED_BY",
+    "target_id": "SUP-02",
+    "document_id": "DOC-PRD-202"
+  },
+  {
+    "source_id": "PRD-301",
+    "relationship": "IN_CATEGORY",
+    "target_id": "CAT-HYGIENE",
+    "document_id": "DOC-PRD-301"
+  },
+  {
+    "source_id": "COS-001",
+    "relationship": "SELLS",
+    "target_id": "PRD-301",
+    "document_id": "DOC-PRD-301"
+  },
+  {
+    "source_id": "PRD-301",
+    "relationship": "SUPPLIED_BY",
+    "target_id": "SUP-03",
+    "document_id": "DOC-PRD-301"
+  },
+  {
+    "source_id": "PRD-302",
+    "relationship": "IN_CATEGORY",
+    "target_id": "CAT-HYGIENE",
+    "document_id": "DOC-PRD-302"
+  },
+  {
+    "source_id": "COS-001",
+    "relationship": "SELLS",
+    "target_id": "PRD-302",
+    "document_id": "DOC-PRD-302"
+  },
+  {
+    "source_id": "PRD-302",
+    "relationship": "SUPPLIED_BY",
+    "target_id": "SUP-03",
+    "document_id": "DOC-PRD-302"
+  },
+  {
+    "source_id": "PRD-303",
+    "relationship": "IN_CATEGORY",
+    "target_id": "CAT-HYGIENE",
+    "document_id": "DOC-PRD-303"
+  },
+  {
+    "source_id": "COS-001",
+    "relationship": "SELLS",
+    "target_id": "PRD-303",
+    "document_id": "DOC-PRD-303"
+  },
+  {
+    "source_id": "PRD-303",
+    "relationship": "SUPPLIED_BY",
+    "target_id": "SUP-03",
+    "document_id": "DOC-PRD-303"
+  },
+  {
+    "source_id": "CUS-001",
+    "relationship": "IN_SEGMENT",
+    "target_id": "SEG-EDU",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "CUS-001",
+    "relationship": "LOCATED_IN",
+    "target_id": "TER-01",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "REP-100001",
+    "relationship": "MANAGES",
+    "target_id": "CUS-001",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "CONTACT-CUS-001",
+    "relationship": "CONTACT_FOR",
+    "target_id": "CUS-001",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "CUS-001",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-101",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "CUS-001",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-301",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "CUS-002",
+    "relationship": "IN_SEGMENT",
+    "target_id": "SEG-CLINIC",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "CUS-002",
+    "relationship": "LOCATED_IN",
+    "target_id": "TER-01",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "REP-100002",
+    "relationship": "MANAGES",
+    "target_id": "CUS-002",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "CONTACT-CUS-002",
+    "relationship": "CONTACT_FOR",
+    "target_id": "CUS-002",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "CUS-002",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-301",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "CUS-002",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-303",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "CUS-003",
+    "relationship": "IN_SEGMENT",
+    "target_id": "SEG-OFFICE",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "CUS-003",
+    "relationship": "LOCATED_IN",
+    "target_id": "TER-02",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "REP-100003",
+    "relationship": "MANAGES",
+    "target_id": "CUS-003",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "CONTACT-CUS-003",
+    "relationship": "CONTACT_FOR",
+    "target_id": "CUS-003",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "CUS-003",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-102",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "CUS-003",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-202",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "CUS-004",
+    "relationship": "IN_SEGMENT",
+    "target_id": "SEG-EDU",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "CUS-004",
+    "relationship": "LOCATED_IN",
+    "target_id": "TER-02",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "REP-100004",
+    "relationship": "MANAGES",
+    "target_id": "CUS-004",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "CONTACT-CUS-004",
+    "relationship": "CONTACT_FOR",
+    "target_id": "CUS-004",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "CUS-004",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-102",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "CUS-004",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-103",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "CUS-005",
+    "relationship": "IN_SEGMENT",
+    "target_id": "SEG-OFFICE",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "CUS-005",
+    "relationship": "LOCATED_IN",
+    "target_id": "TER-03",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "REP-100005",
+    "relationship": "MANAGES",
+    "target_id": "CUS-005",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "CONTACT-CUS-005",
+    "relationship": "CONTACT_FOR",
+    "target_id": "CUS-005",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "CUS-005",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-201",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "CUS-005",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-202",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "CUS-006",
+    "relationship": "IN_SEGMENT",
+    "target_id": "SEG-CLINIC",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "CUS-006",
+    "relationship": "LOCATED_IN",
+    "target_id": "TER-03",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "REP-100006",
+    "relationship": "MANAGES",
+    "target_id": "CUS-006",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "CONTACT-CUS-006",
+    "relationship": "CONTACT_FOR",
+    "target_id": "CUS-006",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "CUS-006",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-301",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "CUS-006",
+    "relationship": "APPROVED_FOR",
+    "target_id": "PRD-302",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "CUS-001",
+    "relationship": "HAS_CONTRACT",
+    "target_id": "CON-001",
+    "document_id": "DOC-008"
+  },
+  {
+    "source_id": "CON-001",
+    "relationship": "COVERS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-008"
+  },
+  {
+    "source_id": "INC-001",
+    "relationship": "AFFECTS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-009"
+  },
+  {
+    "source_id": "INC-001",
+    "relationship": "INVOLVES",
+    "target_id": "SUP-01",
+    "document_id": "DOC-009"
+  },
+  {
+    "source_id": "REP-100001",
+    "relationship": "OWNS",
+    "target_id": "OPP-001",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "OPP-001",
+    "relationship": "FOR_CUSTOMER",
+    "target_id": "CUS-001",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "OPP-001",
+    "relationship": "CONCERNS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "CASE-001",
+    "relationship": "FOR_CUSTOMER",
+    "target_id": "CUS-006",
+    "document_id": "DOC-012"
+  },
+  {
+    "source_id": "CASE-001",
+    "relationship": "CONCERNS",
+    "target_id": "PRD-302",
+    "document_id": "DOC-012"
+  },
+  {
+    "source_id": "REP-100006",
+    "relationship": "HANDLES",
+    "target_id": "CASE-001",
+    "document_id": "DOC-012"
+  },
+  {
+    "source_id": "OPP-002",
+    "relationship": "FOR_CUSTOMER",
+    "target_id": "CUS-005",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "OPP-002",
+    "relationship": "CONCERNS",
+    "target_id": "PRD-201",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "REP-100005",
+    "relationship": "OWNS",
+    "target_id": "OPP-002",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "DOC-PRD-101",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-PRD-101"
+  },
+  {
+    "source_id": "DOC-PRD-101",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-PAPER",
+    "document_id": "DOC-PRD-101"
+  },
+  {
+    "source_id": "DOC-PRD-101",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-01",
+    "document_id": "DOC-PRD-101"
+  },
+  {
+    "source_id": "DOC-PRD-101",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-PRD-101"
+  },
+  {
+    "source_id": "DOC-PRD-102",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-102",
+    "document_id": "DOC-PRD-102"
+  },
+  {
+    "source_id": "DOC-PRD-102",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-PAPER",
+    "document_id": "DOC-PRD-102"
+  },
+  {
+    "source_id": "DOC-PRD-102",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-01",
+    "document_id": "DOC-PRD-102"
+  },
+  {
+    "source_id": "DOC-PRD-102",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-PRD-102"
+  },
+  {
+    "source_id": "DOC-PRD-103",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-103",
+    "document_id": "DOC-PRD-103"
+  },
+  {
+    "source_id": "DOC-PRD-103",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-PAPER",
+    "document_id": "DOC-PRD-103"
+  },
+  {
+    "source_id": "DOC-PRD-103",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-01",
+    "document_id": "DOC-PRD-103"
+  },
+  {
+    "source_id": "DOC-PRD-103",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-PRD-103"
+  },
+  {
+    "source_id": "DOC-PRD-201",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-201",
+    "document_id": "DOC-PRD-201"
+  },
+  {
+    "source_id": "DOC-PRD-201",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-DESK",
+    "document_id": "DOC-PRD-201"
+  },
+  {
+    "source_id": "DOC-PRD-201",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-02",
+    "document_id": "DOC-PRD-201"
+  },
+  {
+    "source_id": "DOC-PRD-201",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-PRD-201"
+  },
+  {
+    "source_id": "DOC-PRD-202",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-202",
+    "document_id": "DOC-PRD-202"
+  },
+  {
+    "source_id": "DOC-PRD-202",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-DESK",
+    "document_id": "DOC-PRD-202"
+  },
+  {
+    "source_id": "DOC-PRD-202",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-02",
+    "document_id": "DOC-PRD-202"
+  },
+  {
+    "source_id": "DOC-PRD-202",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-PRD-202"
+  },
+  {
+    "source_id": "DOC-PRD-301",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-301",
+    "document_id": "DOC-PRD-301"
+  },
+  {
+    "source_id": "DOC-PRD-301",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-HYGIENE",
+    "document_id": "DOC-PRD-301"
+  },
+  {
+    "source_id": "DOC-PRD-301",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-03",
+    "document_id": "DOC-PRD-301"
+  },
+  {
+    "source_id": "DOC-PRD-301",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-PRD-301"
+  },
+  {
+    "source_id": "DOC-PRD-302",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-302",
+    "document_id": "DOC-PRD-302"
+  },
+  {
+    "source_id": "DOC-PRD-302",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-HYGIENE",
+    "document_id": "DOC-PRD-302"
+  },
+  {
+    "source_id": "DOC-PRD-302",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-03",
+    "document_id": "DOC-PRD-302"
+  },
+  {
+    "source_id": "DOC-PRD-302",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-PRD-302"
+  },
+  {
+    "source_id": "DOC-PRD-303",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-303",
+    "document_id": "DOC-PRD-303"
+  },
+  {
+    "source_id": "DOC-PRD-303",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-HYGIENE",
+    "document_id": "DOC-PRD-303"
+  },
+  {
+    "source_id": "DOC-PRD-303",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-03",
+    "document_id": "DOC-PRD-303"
+  },
+  {
+    "source_id": "DOC-PRD-303",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-PRD-303"
+  },
+  {
+    "source_id": "DOC-CUS-001",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-001",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "DOC-CUS-001",
+    "relationship": "MENTIONS",
+    "target_id": "SEG-EDU",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "DOC-CUS-001",
+    "relationship": "MENTIONS",
+    "target_id": "TER-01",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "DOC-CUS-001",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100001",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "DOC-CUS-001",
+    "relationship": "MENTIONS",
+    "target_id": "CONTACT-CUS-001",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "DOC-CUS-001",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "DOC-CUS-001",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-301",
+    "document_id": "DOC-CUS-001"
+  },
+  {
+    "source_id": "DOC-CUS-002",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-002",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "DOC-CUS-002",
+    "relationship": "MENTIONS",
+    "target_id": "SEG-CLINIC",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "DOC-CUS-002",
+    "relationship": "MENTIONS",
+    "target_id": "TER-01",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "DOC-CUS-002",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100002",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "DOC-CUS-002",
+    "relationship": "MENTIONS",
+    "target_id": "CONTACT-CUS-002",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "DOC-CUS-002",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-301",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "DOC-CUS-002",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-303",
+    "document_id": "DOC-CUS-002"
+  },
+  {
+    "source_id": "DOC-CUS-003",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-003",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "DOC-CUS-003",
+    "relationship": "MENTIONS",
+    "target_id": "SEG-OFFICE",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "DOC-CUS-003",
+    "relationship": "MENTIONS",
+    "target_id": "TER-02",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "DOC-CUS-003",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100003",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "DOC-CUS-003",
+    "relationship": "MENTIONS",
+    "target_id": "CONTACT-CUS-003",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "DOC-CUS-003",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-102",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "DOC-CUS-003",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-202",
+    "document_id": "DOC-CUS-003"
+  },
+  {
+    "source_id": "DOC-CUS-004",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-004",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "DOC-CUS-004",
+    "relationship": "MENTIONS",
+    "target_id": "SEG-EDU",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "DOC-CUS-004",
+    "relationship": "MENTIONS",
+    "target_id": "TER-02",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "DOC-CUS-004",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100004",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "DOC-CUS-004",
+    "relationship": "MENTIONS",
+    "target_id": "CONTACT-CUS-004",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "DOC-CUS-004",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-102",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "DOC-CUS-004",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-103",
+    "document_id": "DOC-CUS-004"
+  },
+  {
+    "source_id": "DOC-CUS-005",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-005",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "DOC-CUS-005",
+    "relationship": "MENTIONS",
+    "target_id": "SEG-OFFICE",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "DOC-CUS-005",
+    "relationship": "MENTIONS",
+    "target_id": "TER-03",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "DOC-CUS-005",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100005",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "DOC-CUS-005",
+    "relationship": "MENTIONS",
+    "target_id": "CONTACT-CUS-005",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "DOC-CUS-005",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-201",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "DOC-CUS-005",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-202",
+    "document_id": "DOC-CUS-005"
+  },
+  {
+    "source_id": "DOC-CUS-006",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-006",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "DOC-CUS-006",
+    "relationship": "MENTIONS",
+    "target_id": "SEG-CLINIC",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "DOC-CUS-006",
+    "relationship": "MENTIONS",
+    "target_id": "TER-03",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "DOC-CUS-006",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100006",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "DOC-CUS-006",
+    "relationship": "MENTIONS",
+    "target_id": "CONTACT-CUS-006",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "DOC-CUS-006",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-301",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "DOC-CUS-006",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-302",
+    "document_id": "DOC-CUS-006"
+  },
+  {
+    "source_id": "DOC-001",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-001"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100001",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100002",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100003",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100004",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100005",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100006",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "TEAM-1",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "TEAM-2",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "TEAM-3",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "TER-01",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "TER-02",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-002",
+    "relationship": "MENTIONS",
+    "target_id": "TER-03",
+    "document_id": "DOC-002"
+  },
+  {
+    "source_id": "DOC-003",
+    "relationship": "MENTIONS",
+    "target_id": "POL-DISC-01",
+    "document_id": "DOC-003"
+  },
+  {
+    "source_id": "DOC-004",
+    "relationship": "MENTIONS",
+    "target_id": "POL-DISC-01",
+    "document_id": "DOC-004"
+  },
+  {
+    "source_id": "DOC-004",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-DESK",
+    "document_id": "DOC-004"
+  },
+  {
+    "source_id": "DOC-005",
+    "relationship": "MENTIONS",
+    "target_id": "POL-RETURN-01",
+    "document_id": "DOC-005"
+  },
+  {
+    "source_id": "DOC-005",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-DESK",
+    "document_id": "DOC-005"
+  },
+  {
+    "source_id": "DOC-005",
+    "relationship": "MENTIONS",
+    "target_id": "CAT-HYGIENE",
+    "document_id": "DOC-005"
+  },
+  {
+    "source_id": "DOC-006",
+    "relationship": "MENTIONS",
+    "target_id": "POL-CREDIT-01",
+    "document_id": "DOC-006"
+  },
+  {
+    "source_id": "DOC-007",
+    "relationship": "MENTIONS",
+    "target_id": "POL-REVENUE-01",
+    "document_id": "DOC-007"
+  },
+  {
+    "source_id": "DOC-007",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-007"
+  },
+  {
+    "source_id": "DOC-008",
+    "relationship": "MENTIONS",
+    "target_id": "CON-001",
+    "document_id": "DOC-008"
+  },
+  {
+    "source_id": "DOC-008",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-001",
+    "document_id": "DOC-008"
+  },
+  {
+    "source_id": "DOC-008",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-008"
+  },
+  {
+    "source_id": "DOC-008",
+    "relationship": "MENTIONS",
+    "target_id": "POL-DISC-01",
+    "document_id": "DOC-008"
+  },
+  {
+    "source_id": "DOC-009",
+    "relationship": "MENTIONS",
+    "target_id": "INC-001",
+    "document_id": "DOC-009"
+  },
+  {
+    "source_id": "DOC-009",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-009"
+  },
+  {
+    "source_id": "DOC-009",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-102",
+    "document_id": "DOC-009"
+  },
+  {
+    "source_id": "DOC-009",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-01",
+    "document_id": "DOC-009"
+  },
+  {
+    "source_id": "DOC-009",
+    "relationship": "MENTIONS",
+    "target_id": "TER-01",
+    "document_id": "DOC-009"
+  },
+  {
+    "source_id": "DOC-009",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-001",
+    "document_id": "DOC-009"
+  },
+  {
+    "source_id": "DOC-010",
+    "relationship": "MENTIONS",
+    "target_id": "OPP-001",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "DOC-010",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-001",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "DOC-010",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100001",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "DOC-010",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "DOC-010",
+    "relationship": "MENTIONS",
+    "target_id": "INC-001",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "DOC-010",
+    "relationship": "MENTIONS",
+    "target_id": "CON-001",
+    "document_id": "DOC-010"
+  },
+  {
+    "source_id": "DOC-011",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100001",
+    "document_id": "DOC-011"
+  },
+  {
+    "source_id": "DOC-011",
+    "relationship": "MENTIONS",
+    "target_id": "TEAM-1",
+    "document_id": "DOC-011"
+  },
+  {
+    "source_id": "DOC-011",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-001",
+    "document_id": "DOC-011"
+  },
+  {
+    "source_id": "DOC-011",
+    "relationship": "MENTIONS",
+    "target_id": "OPP-001",
+    "document_id": "DOC-011"
+  },
+  {
+    "source_id": "DOC-011",
+    "relationship": "MENTIONS",
+    "target_id": "INC-001",
+    "document_id": "DOC-011"
+  },
+  {
+    "source_id": "DOC-012",
+    "relationship": "MENTIONS",
+    "target_id": "CASE-001",
+    "document_id": "DOC-012"
+  },
+  {
+    "source_id": "DOC-012",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-006",
+    "document_id": "DOC-012"
+  },
+  {
+    "source_id": "DOC-012",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100006",
+    "document_id": "DOC-012"
+  },
+  {
+    "source_id": "DOC-012",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-302",
+    "document_id": "DOC-012"
+  },
+  {
+    "source_id": "DOC-013",
+    "relationship": "MENTIONS",
+    "target_id": "OPP-002",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "DOC-013",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-005",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "DOC-013",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100005",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "DOC-013",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-201",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "DOC-013",
+    "relationship": "MENTIONS",
+    "target_id": "POL-DISC-01",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "DOC-013",
+    "relationship": "MENTIONS",
+    "target_id": "POL-CREDIT-01",
+    "document_id": "DOC-013"
+  },
+  {
+    "source_id": "DOC-014",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-01",
+    "document_id": "DOC-014"
+  },
+  {
+    "source_id": "DOC-014",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-02",
+    "document_id": "DOC-014"
+  },
+  {
+    "source_id": "DOC-014",
+    "relationship": "MENTIONS",
+    "target_id": "SUP-03",
+    "document_id": "DOC-014"
+  },
+  {
+    "source_id": "DOC-014",
+    "relationship": "MENTIONS",
+    "target_id": "INC-001",
+    "document_id": "DOC-014"
+  },
+  {
+    "source_id": "DOC-014",
+    "relationship": "MENTIONS",
+    "target_id": "PRD-101",
+    "document_id": "DOC-014"
+  },
+  {
+    "source_id": "DOC-014",
+    "relationship": "MENTIONS",
+    "target_id": "CUS-001",
+    "document_id": "DOC-014"
+  },
+  {
+    "source_id": "DOC-014",
+    "relationship": "MENTIONS",
+    "target_id": "REP-100001",
+    "document_id": "DOC-014"
+  },
+  {
+    "source_id": "DOC-015",
+    "relationship": "MENTIONS",
+    "target_id": "COS-001",
+    "document_id": "DOC-015"
+  },
+  {
+    "source_id": "DOC-015",
+    "relationship": "MENTIONS",
+    "target_id": "POL-DISC-01",
+    "document_id": "DOC-015"
+  },
+  {
+    "source_id": "DOC-015",
+    "relationship": "MENTIONS",
+    "target_id": "POL-CREDIT-01",
+    "document_id": "DOC-015"
+  },
+  {
+    "source_id": "DOC-015",
+    "relationship": "MENTIONS",
+    "target_id": "POL-RETURN-01",
+    "document_id": "DOC-015"
+  },
+  {
+    "source_id": "DOC-015",
+    "relationship": "MENTIONS",
+    "target_id": "POL-REVENUE-01",
+    "document_id": "DOC-015"
+  },
+  {
+    "source_id": "REP-100001",
+    "relationship": "HAS_METRIC",
+    "target_id": "METRIC-100001-2018-01",
+    "document_id": "DOC-011"
+  },
+  {
+    "source_id": "METRIC-100001-2018-01",
+    "relationship": "FOR_PERIOD",
+    "target_id": "PERIOD-2018-01",
+    "document_id": "DOC-007"
+  },
+  {
+    "source_id": "REP-100001",
+    "relationship": "HAS_METRIC",
+    "target_id": "METRIC-100001-2018-02",
+    "document_id": "DOC-011"
+  },
+  {
+    "source_id": "METRIC-100001-2018-02",
+    "relationship": "FOR_PERIOD",
+    "target_id": "PERIOD-2018-02",
+    "document_id": "DOC-007"
+  }
+]

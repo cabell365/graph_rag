@@ -1,0 +1,695 @@
+[
+  {
+    "id": "COS-001",
+    "kind": "Company",
+    "name": "Canyon Office Supply Cooperative",
+    "origin": "fictional"
+  },
+  {
+    "id": "TEAM-1",
+    "kind": "SalesTeam",
+    "name": "marriage",
+    "origin": "mysql_backup",
+    "sales_team_id": 1
+  },
+  {
+    "id": "TEAM-2",
+    "kind": "SalesTeam",
+    "name": "races",
+    "origin": "mysql_backup",
+    "sales_team_id": 2
+  },
+  {
+    "id": "TEAM-3",
+    "kind": "SalesTeam",
+    "name": "setup",
+    "origin": "mysql_backup",
+    "sales_team_id": 3
+  },
+  {
+    "id": "REP-100001",
+    "kind": "SalesRep",
+    "name": "ELYSE BEAULIEU",
+    "origin": "mysql_backup",
+    "sales_rep_id": 100001,
+    "sales_team_id": 1
+  },
+  {
+    "id": "REP-100002",
+    "kind": "SalesRep",
+    "name": "RACQUEL TOLMAN",
+    "origin": "mysql_backup",
+    "sales_rep_id": 100002,
+    "sales_team_id": 1
+  },
+  {
+    "id": "REP-100003",
+    "kind": "SalesRep",
+    "name": "SIMONNE VREELAND",
+    "origin": "mysql_backup",
+    "sales_rep_id": 100003,
+    "sales_team_id": 2
+  },
+  {
+    "id": "REP-100004",
+    "kind": "SalesRep",
+    "name": "KIARA BELANGER",
+    "origin": "mysql_backup",
+    "sales_rep_id": 100004,
+    "sales_team_id": 2
+  },
+  {
+    "id": "REP-100005",
+    "kind": "SalesRep",
+    "name": "JULIETTA POLEN",
+    "origin": "mysql_backup",
+    "sales_rep_id": 100005,
+    "sales_team_id": 3
+  },
+  {
+    "id": "REP-100006",
+    "kind": "SalesRep",
+    "name": "BARBIE PETRONE",
+    "origin": "mysql_backup",
+    "sales_rep_id": 100006,
+    "sales_team_id": 3
+  },
+  {
+    "id": "TER-01",
+    "kind": "Territory",
+    "name": "Wasatch territory",
+    "origin": "fictional"
+  },
+  {
+    "id": "TER-02",
+    "kind": "Territory",
+    "name": "High Desert territory",
+    "origin": "fictional"
+  },
+  {
+    "id": "TER-03",
+    "kind": "Territory",
+    "name": "Front Range territory",
+    "origin": "fictional"
+  },
+  {
+    "id": "SEG-EDU",
+    "kind": "Segment",
+    "name": "Education",
+    "origin": "fictional"
+  },
+  {
+    "id": "SEG-CLINIC",
+    "kind": "Segment",
+    "name": "Outpatient clinics",
+    "origin": "fictional"
+  },
+  {
+    "id": "SEG-OFFICE",
+    "kind": "Segment",
+    "name": "Professional offices",
+    "origin": "fictional"
+  },
+  {
+    "id": "CAT-PAPER",
+    "kind": "Category",
+    "name": "Paper and printing",
+    "origin": "fictional"
+  },
+  {
+    "id": "CAT-DESK",
+    "kind": "Category",
+    "name": "Workplace equipment",
+    "origin": "fictional"
+  },
+  {
+    "id": "CAT-HYGIENE",
+    "kind": "Category",
+    "name": "Facility consumables",
+    "origin": "fictional"
+  },
+  {
+    "id": "PRD-101",
+    "kind": "Product",
+    "name": "SummitCopy A4",
+    "origin": "fictional",
+    "sku": "PRD-101",
+    "list_price_usd": 48,
+    "minimum_units": 10,
+    "sales_unit": "case of ten 500-sheet reams"
+  },
+  {
+    "id": "PRD-102",
+    "kind": "Product",
+    "name": "SummitCopy Letter",
+    "origin": "fictional",
+    "sku": "PRD-102",
+    "list_price_usd": 46,
+    "minimum_units": 10,
+    "sales_unit": "case of ten 500-sheet reams"
+  },
+  {
+    "id": "PRD-103",
+    "kind": "Product",
+    "name": "CanyonLabel L30",
+    "origin": "fictional",
+    "sku": "PRD-103",
+    "list_price_usd": 36,
+    "minimum_units": 5,
+    "sales_unit": "box of 100 sheets"
+  },
+  {
+    "id": "PRD-201",
+    "kind": "Product",
+    "name": "MesaLift Desk",
+    "origin": "fictional",
+    "sku": "PRD-201",
+    "list_price_usd": 520,
+    "minimum_units": 1,
+    "sales_unit": "one boxed desk"
+  },
+  {
+    "id": "PRD-202",
+    "kind": "Product",
+    "name": "MesaSeat Task Chair",
+    "origin": "fictional",
+    "sku": "PRD-202",
+    "list_price_usd": 210,
+    "minimum_units": 2,
+    "sales_unit": "one boxed chair"
+  },
+  {
+    "id": "PRD-301",
+    "kind": "Product",
+    "name": "ClearTrail Hand Soap",
+    "origin": "fictional",
+    "sku": "PRD-301",
+    "list_price_usd": 32,
+    "minimum_units": 6,
+    "sales_unit": "case of six 1-liter refill bottles"
+  },
+  {
+    "id": "PRD-302",
+    "kind": "Product",
+    "name": "ClearTrail Surface Wipes",
+    "origin": "fictional",
+    "sku": "PRD-302",
+    "list_price_usd": 54,
+    "minimum_units": 4,
+    "sales_unit": "case of twelve 80-count tubs"
+  },
+  {
+    "id": "PRD-303",
+    "kind": "Product",
+    "name": "ClearTrail Paper Towels",
+    "origin": "fictional",
+    "sku": "PRD-303",
+    "list_price_usd": 40,
+    "minimum_units": 8,
+    "sales_unit": "case of twelve rolls"
+  },
+  {
+    "id": "SUP-01",
+    "kind": "Supplier",
+    "name": "Juniper Paper Works",
+    "origin": "fictional"
+  },
+  {
+    "id": "SUP-02",
+    "kind": "Supplier",
+    "name": "Mesa Workplace Manufacturing",
+    "origin": "fictional"
+  },
+  {
+    "id": "SUP-03",
+    "kind": "Supplier",
+    "name": "ClearTrail Consumables",
+    "origin": "fictional"
+  },
+  {
+    "id": "CUS-001",
+    "kind": "Customer",
+    "name": "Aspen Grove Learning Network",
+    "origin": "fictional",
+    "payment_terms": "Net 30",
+    "credit_limit": "USD 20,000"
+  },
+  {
+    "id": "CONTACT-CUS-001",
+    "kind": "Contact",
+    "name": "Marin Cole",
+    "origin": "fictional"
+  },
+  {
+    "id": "CUS-002",
+    "kind": "Customer",
+    "name": "Redstone Family Clinic Group",
+    "origin": "fictional",
+    "payment_terms": "Net 30",
+    "credit_limit": "USD 12,000"
+  },
+  {
+    "id": "CONTACT-CUS-002",
+    "kind": "Contact",
+    "name": "Devon Vale",
+    "origin": "fictional"
+  },
+  {
+    "id": "CUS-003",
+    "kind": "Customer",
+    "name": "Juniper Accounting Collective",
+    "origin": "fictional",
+    "payment_terms": "Net 15",
+    "credit_limit": "USD 8,000"
+  },
+  {
+    "id": "CONTACT-CUS-003",
+    "kind": "Contact",
+    "name": "Taylor Reed",
+    "origin": "fictional"
+  },
+  {
+    "id": "CUS-004",
+    "kind": "Customer",
+    "name": "High Mesa Charter Alliance",
+    "origin": "fictional",
+    "payment_terms": "Net 30",
+    "credit_limit": "USD 18,000"
+  },
+  {
+    "id": "CONTACT-CUS-004",
+    "kind": "Contact",
+    "name": "Alex Rowan",
+    "origin": "fictional"
+  },
+  {
+    "id": "CUS-005",
+    "kind": "Customer",
+    "name": "Pinecrest Design Partners",
+    "origin": "fictional",
+    "payment_terms": "Net 15",
+    "credit_limit": "USD 10,000"
+  },
+  {
+    "id": "CONTACT-CUS-005",
+    "kind": "Contact",
+    "name": "Casey Linden",
+    "origin": "fictional"
+  },
+  {
+    "id": "CUS-006",
+    "kind": "Customer",
+    "name": "Silver Creek Wellness Offices",
+    "origin": "fictional",
+    "payment_terms": "Net 30",
+    "credit_limit": "USD 9,000"
+  },
+  {
+    "id": "CONTACT-CUS-006",
+    "kind": "Contact",
+    "name": "Morgan Hale",
+    "origin": "fictional"
+  },
+  {
+    "id": "POL-DISC-01",
+    "kind": "Policy",
+    "name": "Discount approval",
+    "origin": "fictional"
+  },
+  {
+    "id": "POL-RETURN-01",
+    "kind": "Policy",
+    "name": "Returns and damage",
+    "origin": "fictional"
+  },
+  {
+    "id": "POL-CREDIT-01",
+    "kind": "Policy",
+    "name": "Credit holds",
+    "origin": "fictional"
+  },
+  {
+    "id": "POL-REVENUE-01",
+    "kind": "Policy",
+    "name": "Monthly sales definitions",
+    "origin": "fictional"
+  },
+  {
+    "id": "CON-001",
+    "kind": "Contract",
+    "name": "Aspen Grove paper agreement",
+    "origin": "fictional"
+  },
+  {
+    "id": "INC-001",
+    "kind": "Incident",
+    "name": "SummitCopy A4 supply delay",
+    "origin": "fictional"
+  },
+  {
+    "id": "OPP-001",
+    "kind": "Opportunity",
+    "name": "Aspen Grove replenishment inquiry",
+    "origin": "fictional"
+  },
+  {
+    "id": "CASE-001",
+    "kind": "SupportCase",
+    "name": "Reception wipes suitability",
+    "origin": "fictional"
+  },
+  {
+    "id": "OPP-002",
+    "kind": "Opportunity",
+    "name": "Pinecrest furniture proposal",
+    "origin": "fictional"
+  },
+  {
+    "id": "DOC-PRD-101",
+    "kind": "Document",
+    "name": "Product sheet: SummitCopy A4",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-PRD-101.md"
+  },
+  {
+    "id": "DOC-PRD-102",
+    "kind": "Document",
+    "name": "Product sheet: SummitCopy Letter",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-PRD-102.md"
+  },
+  {
+    "id": "DOC-PRD-103",
+    "kind": "Document",
+    "name": "Product sheet: CanyonLabel L30",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-PRD-103.md"
+  },
+  {
+    "id": "DOC-PRD-201",
+    "kind": "Document",
+    "name": "Product sheet: MesaLift Desk",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-PRD-201.md"
+  },
+  {
+    "id": "DOC-PRD-202",
+    "kind": "Document",
+    "name": "Product sheet: MesaSeat Task Chair",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-PRD-202.md"
+  },
+  {
+    "id": "DOC-PRD-301",
+    "kind": "Document",
+    "name": "Product sheet: ClearTrail Hand Soap",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-PRD-301.md"
+  },
+  {
+    "id": "DOC-PRD-302",
+    "kind": "Document",
+    "name": "Product sheet: ClearTrail Surface Wipes",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-PRD-302.md"
+  },
+  {
+    "id": "DOC-PRD-303",
+    "kind": "Document",
+    "name": "Product sheet: ClearTrail Paper Towels",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-PRD-303.md"
+  },
+  {
+    "id": "DOC-CUS-001",
+    "kind": "Document",
+    "name": "Account brief: Aspen Grove Learning Network",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-CUS-001.md"
+  },
+  {
+    "id": "DOC-CUS-002",
+    "kind": "Document",
+    "name": "Account brief: Redstone Family Clinic Group",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-CUS-002.md"
+  },
+  {
+    "id": "DOC-CUS-003",
+    "kind": "Document",
+    "name": "Account brief: Juniper Accounting Collective",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-CUS-003.md"
+  },
+  {
+    "id": "DOC-CUS-004",
+    "kind": "Document",
+    "name": "Account brief: High Mesa Charter Alliance",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-CUS-004.md"
+  },
+  {
+    "id": "DOC-CUS-005",
+    "kind": "Document",
+    "name": "Account brief: Pinecrest Design Partners",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-CUS-005.md"
+  },
+  {
+    "id": "DOC-CUS-006",
+    "kind": "Document",
+    "name": "Account brief: Silver Creek Wellness Offices",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-CUS-006.md"
+  },
+  {
+    "id": "DOC-001",
+    "kind": "Document",
+    "name": "Company overview and operating model",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-001.md"
+  },
+  {
+    "id": "DOC-002",
+    "kind": "Document",
+    "name": "Sales organization and identity register",
+    "origin": "mixed",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-002.md"
+  },
+  {
+    "id": "DOC-003",
+    "kind": "Document",
+    "name": "Discount policy: historical version",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2022-12-31",
+    "status": "superseded",
+    "relative_path": "documents/DOC-003.md"
+  },
+  {
+    "id": "DOC-004",
+    "kind": "Document",
+    "name": "Discount policy: revised version",
+    "origin": "fictional",
+    "effective_from": "2023-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-004.md"
+  },
+  {
+    "id": "DOC-005",
+    "kind": "Document",
+    "name": "Returns, delivery damage and warranty",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-005.md"
+  },
+  {
+    "id": "DOC-006",
+    "kind": "Document",
+    "name": "Credit and order release",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-006.md"
+  },
+  {
+    "id": "DOC-007",
+    "kind": "Document",
+    "name": "Sales metrics and database interpretation",
+    "origin": "mixed",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-007.md"
+  },
+  {
+    "id": "DOC-008",
+    "kind": "Document",
+    "name": "Aspen Grove 2023 paper agreement",
+    "origin": "fictional",
+    "effective_from": "2023-01-01",
+    "effective_to": "2023-12-31",
+    "status": "expired",
+    "relative_path": "documents/DOC-008.md"
+  },
+  {
+    "id": "DOC-009",
+    "kind": "Document",
+    "name": "Supply bulletin: A4 delay in January 2018",
+    "origin": "fictional",
+    "effective_from": "2018-01-10",
+    "effective_to": "2018-01-26",
+    "status": "closed",
+    "relative_path": "documents/DOC-009.md"
+  },
+  {
+    "id": "DOC-010",
+    "kind": "Document",
+    "name": "Customer email: delayed school paper inquiry",
+    "origin": "fictional",
+    "effective_from": "2018-01-15",
+    "effective_to": "2018-01-15",
+    "status": "historical",
+    "relative_path": "documents/DOC-010.md"
+  },
+  {
+    "id": "DOC-011",
+    "kind": "Document",
+    "name": "Sales coaching note: ELYSE BEAULIEU, January 2018",
+    "origin": "mixed",
+    "effective_from": "2018-02-05",
+    "effective_to": "2018-02-05",
+    "status": "historical",
+    "relative_path": "documents/DOC-011.md"
+  },
+  {
+    "id": "DOC-012",
+    "kind": "Document",
+    "name": "Support case: clinic wipe suitability",
+    "origin": "fictional",
+    "effective_from": "2023-03-06",
+    "effective_to": "2023-03-08",
+    "status": "closed",
+    "relative_path": "documents/DOC-012.md"
+  },
+  {
+    "id": "DOC-013",
+    "kind": "Document",
+    "name": "Internal email: furniture discount request",
+    "origin": "fictional",
+    "effective_from": "2023-04-12",
+    "effective_to": "2023-04-12",
+    "status": "historical",
+    "relative_path": "documents/DOC-013.md"
+  },
+  {
+    "id": "DOC-014",
+    "kind": "Document",
+    "name": "Supplier relationships and replenishment playbook",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-014.md"
+  },
+  {
+    "id": "DOC-015",
+    "kind": "Document",
+    "name": "Sales representative onboarding checklist",
+    "origin": "fictional",
+    "effective_from": "2018-01-01",
+    "effective_to": "2024-12-31",
+    "status": "current",
+    "relative_path": "documents/DOC-015.md"
+  },
+  {
+    "id": "PERIOD-2018-01",
+    "kind": "Period",
+    "name": "2018-01",
+    "origin": "mysql_backup",
+    "year": 2018,
+    "month": 1
+  },
+  {
+    "id": "METRIC-100001-2018-01",
+    "kind": "MonthlySales",
+    "name": "METRIC-100001-2018-01",
+    "origin": "mysql_backup",
+    "sales_rep_id": 100001,
+    "year_id": 1,
+    "month_id": 1,
+    "target_sales": 93919,
+    "actual_sales": 23598
+  },
+  {
+    "id": "PERIOD-2018-02",
+    "kind": "Period",
+    "name": "2018-02",
+    "origin": "mysql_backup",
+    "year": 2018,
+    "month": 2
+  },
+  {
+    "id": "METRIC-100001-2018-02",
+    "kind": "MonthlySales",
+    "name": "METRIC-100001-2018-02",
+    "origin": "mysql_backup",
+    "sales_rep_id": 100001,
+    "year_id": 1,
+    "month_id": 2,
+    "target_sales": 28970,
+    "actual_sales": 63300
+  }
+]

@@ -1,0 +1,85 @@
+id,kind,name,origin,properties_json
+COS-001,Company,Canyon Office Supply Cooperative,fictional,{}
+TEAM-1,SalesTeam,marriage,mysql_backup,"{""sales_team_id"": 1}"
+TEAM-2,SalesTeam,races,mysql_backup,"{""sales_team_id"": 2}"
+TEAM-3,SalesTeam,setup,mysql_backup,"{""sales_team_id"": 3}"
+REP-100001,SalesRep,ELYSE BEAULIEU,mysql_backup,"{""sales_rep_id"": 100001, ""sales_team_id"": 1}"
+REP-100002,SalesRep,RACQUEL TOLMAN,mysql_backup,"{""sales_rep_id"": 100002, ""sales_team_id"": 1}"
+REP-100003,SalesRep,SIMONNE VREELAND,mysql_backup,"{""sales_rep_id"": 100003, ""sales_team_id"": 2}"
+REP-100004,SalesRep,KIARA BELANGER,mysql_backup,"{""sales_rep_id"": 100004, ""sales_team_id"": 2}"
+REP-100005,SalesRep,JULIETTA POLEN,mysql_backup,"{""sales_rep_id"": 100005, ""sales_team_id"": 3}"
+REP-100006,SalesRep,BARBIE PETRONE,mysql_backup,"{""sales_rep_id"": 100006, ""sales_team_id"": 3}"
+TER-01,Territory,Wasatch territory,fictional,{}
+TER-02,Territory,High Desert territory,fictional,{}
+TER-03,Territory,Front Range territory,fictional,{}
+SEG-EDU,Segment,Education,fictional,{}
+SEG-CLINIC,Segment,Outpatient clinics,fictional,{}
+SEG-OFFICE,Segment,Professional offices,fictional,{}
+CAT-PAPER,Category,Paper and printing,fictional,{}
+CAT-DESK,Category,Workplace equipment,fictional,{}
+CAT-HYGIENE,Category,Facility consumables,fictional,{}
+PRD-101,Product,SummitCopy A4,fictional,"{""sku"": ""PRD-101"", ""list_price_usd"": 48, ""minimum_units"": 10, ""sales_unit"": ""case of ten 500-sheet reams""}"
+PRD-102,Product,SummitCopy Letter,fictional,"{""sku"": ""PRD-102"", ""list_price_usd"": 46, ""minimum_units"": 10, ""sales_unit"": ""case of ten 500-sheet reams""}"
+PRD-103,Product,CanyonLabel L30,fictional,"{""sku"": ""PRD-103"", ""list_price_usd"": 36, ""minimum_units"": 5, ""sales_unit"": ""box of 100 sheets""}"
+PRD-201,Product,MesaLift Desk,fictional,"{""sku"": ""PRD-201"", ""list_price_usd"": 520, ""minimum_units"": 1, ""sales_unit"": ""one boxed desk""}"
+PRD-202,Product,MesaSeat Task Chair,fictional,"{""sku"": ""PRD-202"", ""list_price_usd"": 210, ""minimum_units"": 2, ""sales_unit"": ""one boxed chair""}"
+PRD-301,Product,ClearTrail Hand Soap,fictional,"{""sku"": ""PRD-301"", ""list_price_usd"": 32, ""minimum_units"": 6, ""sales_unit"": ""case of six 1-liter refill bottles""}"
+PRD-302,Product,ClearTrail Surface Wipes,fictional,"{""sku"": ""PRD-302"", ""list_price_usd"": 54, ""minimum_units"": 4, ""sales_unit"": ""case of twelve 80-count tubs""}"
+PRD-303,Product,ClearTrail Paper Towels,fictional,"{""sku"": ""PRD-303"", ""list_price_usd"": 40, ""minimum_units"": 8, ""sales_unit"": ""case of twelve rolls""}"
+SUP-01,Supplier,Juniper Paper Works,fictional,{}
+SUP-02,Supplier,Mesa Workplace Manufacturing,fictional,{}
+SUP-03,Supplier,ClearTrail Consumables,fictional,{}
+CUS-001,Customer,Aspen Grove Learning Network,fictional,"{""payment_terms"": ""Net 30"", ""credit_limit"": ""USD 20,000""}"
+CONTACT-CUS-001,Contact,Marin Cole,fictional,{}
+CUS-002,Customer,Redstone Family Clinic Group,fictional,"{""payment_terms"": ""Net 30"", ""credit_limit"": ""USD 12,000""}"
+CONTACT-CUS-002,Contact,Devon Vale,fictional,{}
+CUS-003,Customer,Juniper Accounting Collective,fictional,"{""payment_terms"": ""Net 15"", ""credit_limit"": ""USD 8,000""}"
+CONTACT-CUS-003,Contact,Taylor Reed,fictional,{}
+CUS-004,Customer,High Mesa Charter Alliance,fictional,"{""payment_terms"": ""Net 30"", ""credit_limit"": ""USD 18,000""}"
+CONTACT-CUS-004,Contact,Alex Rowan,fictional,{}
+CUS-005,Customer,Pinecrest Design Partners,fictional,"{""payment_terms"": ""Net 15"", ""credit_limit"": ""USD 10,000""}"
+CONTACT-CUS-005,Contact,Casey Linden,fictional,{}
+CUS-006,Customer,Silver Creek Wellness Offices,fictional,"{""payment_terms"": ""Net 30"", ""credit_limit"": ""USD 9,000""}"
+CONTACT-CUS-006,Contact,Morgan Hale,fictional,{}
+POL-DISC-01,Policy,Discount approval,fictional,{}
+POL-RETURN-01,Policy,Returns and damage,fictional,{}
+POL-CREDIT-01,Policy,Credit holds,fictional,{}
+POL-REVENUE-01,Policy,Monthly sales definitions,fictional,{}
+CON-001,Contract,Aspen Grove paper agreement,fictional,{}
+INC-001,Incident,SummitCopy A4 supply delay,fictional,{}
+OPP-001,Opportunity,Aspen Grove replenishment inquiry,fictional,{}
+CASE-001,SupportCase,Reception wipes suitability,fictional,{}
+OPP-002,Opportunity,Pinecrest furniture proposal,fictional,{}
+DOC-PRD-101,Document,Product sheet: SummitCopy A4,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-PRD-101.md""}"
+DOC-PRD-102,Document,Product sheet: SummitCopy Letter,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-PRD-102.md""}"
+DOC-PRD-103,Document,Product sheet: CanyonLabel L30,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-PRD-103.md""}"
+DOC-PRD-201,Document,Product sheet: MesaLift Desk,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-PRD-201.md""}"
+DOC-PRD-202,Document,Product sheet: MesaSeat Task Chair,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-PRD-202.md""}"
+DOC-PRD-301,Document,Product sheet: ClearTrail Hand Soap,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-PRD-301.md""}"
+DOC-PRD-302,Document,Product sheet: ClearTrail Surface Wipes,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-PRD-302.md""}"
+DOC-PRD-303,Document,Product sheet: ClearTrail Paper Towels,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-PRD-303.md""}"
+DOC-CUS-001,Document,Account brief: Aspen Grove Learning Network,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-CUS-001.md""}"
+DOC-CUS-002,Document,Account brief: Redstone Family Clinic Group,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-CUS-002.md""}"
+DOC-CUS-003,Document,Account brief: Juniper Accounting Collective,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-CUS-003.md""}"
+DOC-CUS-004,Document,Account brief: High Mesa Charter Alliance,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-CUS-004.md""}"
+DOC-CUS-005,Document,Account brief: Pinecrest Design Partners,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-CUS-005.md""}"
+DOC-CUS-006,Document,Account brief: Silver Creek Wellness Offices,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-CUS-006.md""}"
+DOC-001,Document,Company overview and operating model,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-001.md""}"
+DOC-002,Document,Sales organization and identity register,mixed,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-002.md""}"
+DOC-003,Document,Discount policy: historical version,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2022-12-31"", ""status"": ""superseded"", ""relative_path"": ""documents/DOC-003.md""}"
+DOC-004,Document,Discount policy: revised version,fictional,"{""effective_from"": ""2023-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-004.md""}"
+DOC-005,Document,"Returns, delivery damage and warranty",fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-005.md""}"
+DOC-006,Document,Credit and order release,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-006.md""}"
+DOC-007,Document,Sales metrics and database interpretation,mixed,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-007.md""}"
+DOC-008,Document,Aspen Grove 2023 paper agreement,fictional,"{""effective_from"": ""2023-01-01"", ""effective_to"": ""2023-12-31"", ""status"": ""expired"", ""relative_path"": ""documents/DOC-008.md""}"
+DOC-009,Document,Supply bulletin: A4 delay in January 2018,fictional,"{""effective_from"": ""2018-01-10"", ""effective_to"": ""2018-01-26"", ""status"": ""closed"", ""relative_path"": ""documents/DOC-009.md""}"
+DOC-010,Document,Customer email: delayed school paper inquiry,fictional,"{""effective_from"": ""2018-01-15"", ""effective_to"": ""2018-01-15"", ""status"": ""historical"", ""relative_path"": ""documents/DOC-010.md""}"
+DOC-011,Document,"Sales coaching note: ELYSE BEAULIEU, January 2018",mixed,"{""effective_from"": ""2018-02-05"", ""effective_to"": ""2018-02-05"", ""status"": ""historical"", ""relative_path"": ""documents/DOC-011.md""}"
+DOC-012,Document,Support case: clinic wipe suitability,fictional,"{""effective_from"": ""2023-03-06"", ""effective_to"": ""2023-03-08"", ""status"": ""closed"", ""relative_path"": ""documents/DOC-012.md""}"
+DOC-013,Document,Internal email: furniture discount request,fictional,"{""effective_from"": ""2023-04-12"", ""effective_to"": ""2023-04-12"", ""status"": ""historical"", ""relative_path"": ""documents/DOC-013.md""}"
+DOC-014,Document,Supplier relationships and replenishment playbook,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-014.md""}"
+DOC-015,Document,Sales representative onboarding checklist,fictional,"{""effective_from"": ""2018-01-01"", ""effective_to"": ""2024-12-31"", ""status"": ""current"", ""relative_path"": ""documents/DOC-015.md""}"
+PERIOD-2018-01,Period,2018-01,mysql_backup,"{""year"": 2018, ""month"": 1}"
+METRIC-100001-2018-01,MonthlySales,METRIC-100001-2018-01,mysql_backup,"{""sales_rep_id"": 100001, ""year_id"": 1, ""month_id"": 1, ""target_sales"": 93919, ""actual_sales"": 23598}"
+PERIOD-2018-02,Period,2018-02,mysql_backup,"{""year"": 2018, ""month"": 2}"
+METRIC-100001-2018-02,MonthlySales,METRIC-100001-2018-02,mysql_backup,"{""sales_rep_id"": 100001, ""year_id"": 1, ""month_id"": 2, ""target_sales"": 28970, ""actual_sales"": 63300}"
